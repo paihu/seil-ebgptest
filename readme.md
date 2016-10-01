@@ -24,3 +24,15 @@ This test is EBGP over ipsec
 [seil-1] --- [Debian8] --- [seil-2]
 
 
+## case
+## case1
+default EBGP peering.
+this case is not peering
+## case2
+use ipsec tunnel
+this case is perring. but not accepted prefixes
+## case3
+use ipsec interface
+this case is peering and accepted prefixes.
+but next-hop is over ipsec interface
+
