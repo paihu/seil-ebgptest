@@ -1,0 +1,4 @@
+/.vagrant/
+*.box
+starterkey.txt
+ssh-config
